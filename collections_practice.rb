@@ -34,8 +34,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map! {|x| 
-    if x != "feet" 
+  array.map! {|x|
+    if x != "feet"
       x + "s"
+    else x
     end}
 end
