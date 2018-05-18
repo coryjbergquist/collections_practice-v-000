@@ -35,6 +35,7 @@ end
 
 def add_s(array)
   array.each_with_index {|x, y|
-  if y != 1 + "s"}
+  if y != 1
+    x + "s"}
 
 end
