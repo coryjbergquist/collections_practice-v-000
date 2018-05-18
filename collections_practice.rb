@@ -25,7 +25,7 @@ array.each { |letter| letter[2] = "$" }
 end
 
 def find_a(array)
- if array.map! { |x| x[0] == "a"}
-array
+array if array.map! { |x| x[0] == "a"}
+
 end
 end
