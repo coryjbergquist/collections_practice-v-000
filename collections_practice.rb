@@ -37,6 +37,7 @@ def add_s(array)
   array.map! {|x|
     if x != "feet"
       x + "s"
-    else x
+    else
+      x
     end}
 end
