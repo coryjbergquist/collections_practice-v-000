@@ -38,7 +38,7 @@ end
 def add_s(array)
   array.each_with_index {|word, index|
     if word != "feet"
-      word + s
+      word + "s"
     else
       word
     end
