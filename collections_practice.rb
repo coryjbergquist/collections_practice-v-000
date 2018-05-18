@@ -36,6 +36,7 @@ end
 
 
 def add_s(array)
+  new_array = []
   new_array << array.each_with_index {|word, index|
     if index != 1
       word + "s"
