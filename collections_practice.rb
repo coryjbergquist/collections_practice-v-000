@@ -26,7 +26,4 @@ end
 
 def find_a(array)
    array.select { |str| str.start_with?(a) }
- end
-
-
 end
