@@ -1,3 +1,4 @@
+require "pry"
 
 def sort_array_asc(array)
   array.sort
@@ -20,5 +21,5 @@ array.reverse!
 end
 
 def kesha_maker(array)
-array.map!.with_index { |letter|  % 3 == 0 ? letter : "$"}
+array.each { |letter|  % 3 == 0 ? letter : "$"}
 end
