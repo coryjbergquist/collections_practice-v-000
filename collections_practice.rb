@@ -25,5 +25,5 @@ array.each { |letter| letter[2] = "$" }
 end
 
 def find_a(array)
-   array.select { |str| str.start_with?(a) }
+   array.select { |str| str.start_with?("a") }
 end
