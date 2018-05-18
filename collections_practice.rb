@@ -12,13 +12,5 @@ array.sort {|x,y| x.length <=> y.length}
 end
 
 def swap_elements(array)
-array.sort {|x,y|
-  if x.index == 3
-    1
-elsif y.index == 4
-  -1
-else
-  0
-end
-}
+array.sort {|x,y| x[3] <=> y[4]}
 end
