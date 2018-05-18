@@ -37,7 +37,7 @@ def add_s(array)
   new = []
 new << array.each_with_index {|x, y|
   if y != 1
-    x + "s"
+   "#{x}s"
   end
 }
 new
