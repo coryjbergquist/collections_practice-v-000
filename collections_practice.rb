@@ -12,7 +12,7 @@ array.sort {|x,y| x.length <=> y.length}
 end
 
 def swap_elements(array)
-array.sort {|x,y| 
+array.sort {|x,y|
   if x.index == 3
     1
 elsif y.index = 4
