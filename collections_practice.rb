@@ -24,6 +24,8 @@ def kesha_maker(array)
 array.each { |letter| letter[2] = "$" }
 end
 
-def find_a
+def find_a(array)
+  if array.each { |x| x[0] == "a"}
+    array
 
 end
