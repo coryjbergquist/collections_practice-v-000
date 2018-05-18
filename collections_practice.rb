@@ -34,5 +34,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map! {|x| x + "s" if x.index != 1}
+  array.map! {|x| x + "s"}
 end
