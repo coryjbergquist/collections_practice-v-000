@@ -21,5 +21,5 @@ array.reverse!
 end
 
 def kesha_maker(array)
-array.each { |letter|  % 3 == 0 ? letter : "$"}
+array.each { |letter| binding.pry % 3 == 0 ? letter : "$"}
 end
