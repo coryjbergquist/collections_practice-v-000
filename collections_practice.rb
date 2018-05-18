@@ -41,3 +41,13 @@ def add_s(array)
       x
     end}
 end
+
+def add_s(array)
+  array.each_with_index {|word, index| 
+    if x != "feet"
+      x + s
+    else
+      x
+    end
+  }
+end
