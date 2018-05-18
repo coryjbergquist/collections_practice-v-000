@@ -43,5 +43,4 @@ def add_s(array)
       word
     end
   }
-  new_array
 end
