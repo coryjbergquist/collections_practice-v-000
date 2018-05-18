@@ -23,3 +23,5 @@ end
 def kesha_maker(array)
 array.each { |letter| letter[2] = "$" }
 end
+
+
