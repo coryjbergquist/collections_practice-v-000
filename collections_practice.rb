@@ -12,5 +12,5 @@ array.sort {|x,y| x.length <=> y.length}
 end
 
 def swap_elements(array)
-array.sort {|x,y| x[3], y[4]}
+  array[3], array [4] = array [4], array [3]
 end
