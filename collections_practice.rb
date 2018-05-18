@@ -37,10 +37,10 @@ end
 
 def add_s(array)
   array.each_with_index {|word, index|
-    if x != "feet"
-      x + s
+    if word != "feet"
+      word + s
     else
-      x
+      word
     end
   }
 end
