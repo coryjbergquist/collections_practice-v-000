@@ -28,4 +28,3 @@ def find_a(array)
 array if array.map! { |x| x[0] == "a"}
 
 end
-end
