@@ -27,5 +27,5 @@ end
 def find_a(array)
  if array.map! { |x| x[0] == "a"}
 array
-
+end
 end
