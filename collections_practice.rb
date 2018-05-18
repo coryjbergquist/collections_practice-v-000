@@ -15,7 +15,7 @@ def swap_elements(array)
 array.sort {|x,y|
   if x.index == 3
     1
-elsif y.index = 4
+elsif y.index == 4
   -1
 else
   0
