@@ -26,6 +26,7 @@ end
 
 def find_a(array)
   if array.each { |x| x[0] == "a"}
-    array
 
+    array
+end
 end
