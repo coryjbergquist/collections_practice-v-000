@@ -20,7 +20,5 @@ array.reverse!
 end
 
 def kesha_maker(array)
-new_array = []
-new_array << array.map {|x| "#{x}!"}
-new_array
+array.map!.with_index { |letter, index| index % 3 == 0 ? letter = $}
 end
